@@ -1,0 +1,7 @@
+{%extends 'base.html'%}
+
+{% block conteudo %}
+<h1 class="mt-3 mb-3">Hello user {{user.first_name }} {{user.last_name}} Welcome the dashboard</h1>
+{%include 'parciais/_messages.html'%}
+<p>Your name user is {{user}}</p>
+{% endblock %}
